@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="acarModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Haber">
+    <Key>
+      <PropertyRef Name="HaberID" />
+    </Key>
+    <Property Name="HaberID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="haber_resmi" Type="image" />
+    <Property Name="haber_yazisi" Type="nvarchar(max)" />
+    <Property Name="haber_turu" Type="int" />
+    <Property Name="haber_baslik" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Users1">
+    <Key>
+      <PropertyRef Name="userEmail" />
+    </Key>
+    <Property Name="userEmail" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="userPassword" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Yorum1">
+    <Key>
+      <PropertyRef Name="YorumID" />
+    </Key>
+    <Property Name="YorumID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Yorum_satiri" Type="nvarchar(max)" />
+    <Property Name="HaberID" Type="int" />
+  </EntityType>
+  <Association Name="FK_Yorum1_Haber">
+    <End Role="Haber" Type="Self.Haber" Multiplicity="0..1" />
+    <End Role="Yorum1" Type="Self.Yorum1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Haber">
+        <PropertyRef Name="HaberID" />
+      </Principal>
+      <Dependent Role="Yorum1">
+        <PropertyRef Name="HaberID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="acarModelStoreContainer">
+    <EntitySet Name="Haber" EntityType="Self.Haber" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users1" EntityType="Self.Users1" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Yorum1" EntityType="Self.Yorum1" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Yorum1_Haber" Association="Self.FK_Yorum1_Haber">
+      <End Role="Haber" EntitySet="Haber" />
+      <End Role="Yorum1" EntitySet="Yorum1" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

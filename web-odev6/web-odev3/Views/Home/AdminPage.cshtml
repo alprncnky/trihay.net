@@ -1,0 +1,109 @@
+﻿@model web_odev3.Models.ViewModel
+@{
+    ViewBag.Title = "AdminPage";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="~/assets/css/bootstrap.minn.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4" style="background-color:#f2f2f2;">
+                <div>
+                    <h1>Haberler</h1>
+                </div>
+                <div>
+                    <p>Yeni @Html.ActionLink("Haber Oluştur", "Create", "Haber")</p>                    
+                </div>
+                @foreach (var item in Model.ListH)
+                {
+                    <br>
+                    <br>
+                    <br>
+                    <div class="container" style="width:100%; max-height:120px; overflow:auto">
+                        <div>
+                            @Html.ActionLink("Edit", "Edit","Haber", new { id = item.HaberID },null) |
+                            @Html.ActionLink("Details", "Details","Haber", new { id = item.HaberID },null) |
+                            @Html.ActionLink("Delete", "Delete", "Haber", new { id = item.HaberID },null) |
+                        </div>
+                        <div>
+                            @Html.DisplayFor(modelItem => item.haber_baslik)
+                        </div>
+                        <div>
+                            @Html.DisplayFor(modelItem => item.haber_turu)
+                        </div>
+                        <div>
+                            @Html.DisplayFor(modelItem => item.haber_yazisi)
+                        </div>
+                    </div>
+                }
+
+            </div>
+
+            <div class="col-lg-4">
+                <div>
+                    <h1>Yorumlar</h1>
+                </div>
+                @foreach (var item in Model.ListY)
+                {
+                    <br>
+                    <br>
+                    <br>
+                    <div class="container" style="width:100%; max-height:60px; overflow:auto">
+                        <div>
+                            @Html.ActionLink("Edit", "Edit", "Yorum", new { id = item.YorumID }, null) |
+                            @Html.ActionLink("Details", "Details", "Yorum", new { id = item.YorumID }, null) |
+                            @Html.ActionLink("Delete", "Delete", "Yorum", new { id = item.YorumID }, null) |
+                        </div>
+                        <div>
+                            @Html.DisplayFor(modelItem => item.YorumID )
+                        </div>
+                        <div>
+                            @Html.DisplayFor(modelItem => item.Yorum_satiri )
+                        </div>
+                    </div>
+                }
+
+            </div>
+
+            <div class="col-lg-4" style="background-color:#f2f2f2;">
+                <div>
+                    <h1>Kullanıcılar</h1>
+                </div>
+                @foreach (var item in Model.ListU)
+                {
+                    <br>
+                    <br>
+                    <br>
+                    <div class="container" style="width:100%; max-height:60px; overflow:auto">
+                        <div>
+                            @Html.ActionLink("Edit", "Edit", "Users1", new { idd = item.userEmail }, null) |
+                            @Html.ActionLink("Details", "Details", "Users1", new { idd = item.userEmail }, null) |
+                            @Html.ActionLink("Delete", "Delete", "Users1", new { idd = item.userEmail }, null) |
+                        </div>
+                        <div>
+                            @Html.DisplayFor(modelItem => item.userEmail)
+                        </div>
+                        <div>
+                            @Html.DisplayFor(modelItem => item.userPassword )
+                        </div>
+                    </div>
+                }
+
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+</html>

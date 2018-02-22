@@ -1,0 +1,56 @@
+﻿@model web_odev3.Models.ViewModel
+@{
+    ViewBag.Title = "haber";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+<div style="padding-top:3%;" class="container">
+    <div class="row">
+        <div class="container">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"> 
+            @{ 
+                var base64 = Convert.ToBase64String(Model.TargetId.haber_resmi);
+                var imgsrc = string.Format("data:image/jpg;base64,{0}", base64);
+            }
+            <img class="haber" src='@imgsrc' width="510" height="350">
+        </div>
+        <h1>@Html.DisplayFor(Model => Model.TargetId.haber_baslik)</h1>    
+        <p style="padding:1%;"><b>@Html.DisplayFor(Model => Model.TargetId.haber_yazisi)</b></p>
+            </div>
+        <hr/>
+            @using (Html.BeginForm("Create", "Yorum", new { input = Model.TargetId.HaberID }, FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken()
+                <div class="container">
+                <div class="form-group" style="margin-bottom: 0px;">
+                    <div class="col-md-9">
+                        @Html.EditorFor(model => model.yorum1.Yorum_satiri, new { htmlAttributes =  new { @class = "form-control"} })
+                    </div>
+                </div>
+                <div class="form-group" style="margin-bottom: 0px;">
+                    <div class="col-md-2">
+                        <input type="submit" value="@web_odev3.Resources.HomeTexts.Send" class="btn btn-default" style="height:80px;" />
+                    </div>
+                </div>      
+                    </div>          
+            }
+
+        <div>
+            <ul style="padding-top:2%;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+               @foreach (var item in Model.ListY.OrderByDescending(item => item.YorumID).Where(item => item.HaberID == Model.TargetId.HaberID))
+               {
+                <li style="border:1px solid #808080; border-radius: 8px;" class="col-lg-12 col-md-12 col-sm-12 col-xs-12">  
+                        <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3">
+                            <img style="width:100px;" src="~/images/commentuser.png">
+                        </div>
+                        <div  class="col-lg-10 col-md-9 col-sm-9 col-xs-9" style="word-wrap: break-word;">
+                            <p>@Html.DisplayFor(modelItem => item.Yorum_satiri)</p>
+                        </div>
+   
+                </li>
+                   }
+            </ul>
+        </div>
+           
+</div>
+</div>

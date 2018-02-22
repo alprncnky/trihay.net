@@ -1,0 +1,43 @@
+.custom-login-panel {
+	padding-top:3%;
+}
+
+.form-login {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border-color: #ffffff;
+    border-width: 5px;
+    box-shadow: 0 1px 0 #ffffff; */
+    margin-top: 17px;
+    margin-bottom: 20px;
+    border: solid 2px #ffffff; text-align:center;
+}
+.form-login .form-control{max-width:100%; height:36px;}
+.form-login h4{border-bottom: solid 1px #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+	}
+	
+    .profile-img
+{
+	opacity:1;
+    width: 128px;
+    height: 128px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    margin-top:20px;
+}
+
+body#Login {
+    background-image:url('../images/login.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+    clear: both;
+    padding-bottom: 35px;
+}

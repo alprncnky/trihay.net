@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>@ViewBag.Title</title>
+    <meta charset="UTF-8">
+    <title>AcarTimes</title>
+
+
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+    <!-- Bootstrap  -->
+    <link href="~/assets/css/bootstrap.minn.css" rel="stylesheet">
+
+    <!-- icon fonts font Awesome -->
+    <link href="~/assets/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Import Custom Styles -->
+    <link href="~/assets/css/style1.css" rel="stylesheet">
+
+    <!-- Import Animate Styles -->
+    <link href="~/assets/css/animate.min.css" rel="stylesheet">
+
+
+    <!-- Import Custom Responsive Styles -->
+    <link href="~/assets/css/responsive.css" rel="stylesheet">
+
+    <link href="~/css/logincss.css" rel="stylesheet">
+
+    <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+-->
+
+
+</head>
+<body class="header-fixed-top" id="@(ViewData["PageId"] ?? "")">
+        <div id="page-top" class="page-top"></div><!-- /.page-top -->
+
+        <section id="site-banner" class="site-banner text-center">
+            <div class="container">
+
+                <div class="site-logo">
+                    <p style="float:left;">@DateTime.Now.ToString("HH.mm")</p>
+                    <a><img src="~/images/logo.png" alt="Site Logo"></a>
+
+                    <a href="~/Users1/Login" style="float:right; color:black;">
+                        <span class="glyphicon glyphicon-user"></span>
+                    </a>
+                    <a style="float:right;" href="~/Language/eng" class="btn btn-xs btn-default">English</a>
+                    <a style="float:right;" href="~/Language/turk" class="btn btn-xs btn-default">Türkçe</a>
+                    <a href="~/Home/AdminPage" class="btn btn-default" style="float:right; display:@ViewBag.ekran " role="button">Admin Page</a>
+
+                </div><!-- /.site-logo -->
+            </div><!-- /.container -->
+        </section><!-- /#site-banner -->
+
+
+
+        <header id="main-menu" class="main-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-7">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
+                                <i class="fa fa-bars"></i>
+                            </button>
+                            <div class="menu-logo">
+                                <a><img src="~/images/logo.png" alt="menu Logo"></a>
+                                <a href="~/Language/eng" class="btn btn-xs btn-default">English</a>
+                                <a href="~/Language/turk" class="btn btn-xs btn-default">Türkçe</a>
+                                <a href="~/Users1/Login" style="color:black;">
+                                    <span class="glyphicon glyphicon-user"></span>
+                                </a>
+                            </div><!-- /.menu-logo -->
+                        </div>
+                        <nav id="menu" class="menu collapse navbar-collapse">
+                            <ul id="headernavigation" class="menu-list nav navbar-nav">
+                                <li>@Html.ActionLink(web_odev3.Resources.HomeTexts.Home, "Index", "Home")</li>
+                                <li>@Html.ActionLink(web_odev3.Resources.HomeTexts.Latest, "Sondakika", "Home")</li>
+                                <li>@Html.ActionLink(web_odev3.Resources.HomeTexts.Daily, "gundem", "Home")</li>
+                                <li>@Html.ActionLink(web_odev3.Resources.HomeTexts.Sport, "Spor", "Home")</li>
+                                <li>@Html.ActionLink(web_odev3.Resources.HomeTexts.World, "Dunya","Home")</li>
+                                <li>@Html.ActionLink(web_odev3.Resources.HomeTexts.Contact, "iletisim", "Home")</li>
+                            </ul><!-- /.menu-list -->
+                        </nav><!-- /.menu-list -->
+                    </div>
+
+                    <div class="col-sm-5">
+                    </div>
+                </div><!-- /.row -->
+            </div><!-- /.container -->
+        </header><!-- /#main-menu -->
+        @RenderBody()
+
+
+        <script src="~/assets/js/modernizr-2.8.3.min.js"></script>
+        <script src="~/assets/js/jquery-2.1.0.min.js"></script>
+        <script src="~/assets/js/plugins.js"></script>
+        <script type="text/javascript" src="~/assets/js/jquery.ajaxchimp.min.js"></script>
+    </body>
+</html>

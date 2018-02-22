@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="acarModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Haber">
+          <Key>
+            <PropertyRef Name="HaberID" />
+          </Key>
+          <Property Name="HaberID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="haber_resmi" Type="image" />
+          <Property Name="haber_yazisi" Type="nvarchar(max)" />
+          <Property Name="haber_turu" Type="int" />
+          <Property Name="haber_baslik" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityType Name="Users1">
+          <Key>
+            <PropertyRef Name="userEmail" />
+          </Key>
+          <Property Name="userEmail" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="userPassword" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Yorum1">
+          <Key>
+            <PropertyRef Name="YorumID" />
+          </Key>
+          <Property Name="YorumID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Yorum_satiri" Type="nvarchar(max)" />
+          <Property Name="HaberID" Type="int" />
+        </EntityType>
+        <Association Name="FK_Yorum1_Haber">
+          <End Role="Haber" Type="Self.Haber" Multiplicity="0..1" />
+          <End Role="Yorum1" Type="Self.Yorum1" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Haber">
+              <PropertyRef Name="HaberID" />
+            </Principal>
+            <Dependent Role="Yorum1">
+              <PropertyRef Name="HaberID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="acarModelStoreContainer">
+          <EntitySet Name="Haber" EntityType="Self.Haber" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Users1" EntityType="Self.Users1" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Yorum1" EntityType="Self.Yorum1" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_Yorum1_Haber" Association="Self.FK_Yorum1_Haber">
+            <End Role="Haber" EntitySet="Haber" />
+            <End Role="Yorum1" EntitySet="Yorum1" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="acarModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Haber">
+          <Key>
+            <PropertyRef Name="HaberID" />
+          </Key>
+          <Property Name="HaberID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="haber_resmi" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="haber_yazisi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="haber_turu" Type="Int32" />
+          <Property Name="haber_baslik" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Yorum1" Relationship="Self.FK_Yorum1_Haber" FromRole="Haber" ToRole="Yorum1" />
+        </EntityType>
+        <EntityType Name="Users1">
+          <Key>
+            <PropertyRef Name="userEmail" />
+          </Key>
+          <Property Name="userEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="userPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="Yorum1">
+          <Key>
+            <PropertyRef Name="YorumID" />
+          </Key>
+          <Property Name="YorumID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Yorum_satiri" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="HaberID" Type="Int32" />
+          <NavigationProperty Name="Haber" Relationship="Self.FK_Yorum1_Haber" FromRole="Yorum1" ToRole="Haber" />
+        </EntityType>
+        <Association Name="FK_Yorum1_Haber">
+          <End Role="Haber" Type="Self.Haber" Multiplicity="0..1" />
+          <End Role="Yorum1" Type="Self.Yorum1" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Haber">
+              <PropertyRef Name="HaberID" />
+            </Principal>
+            <Dependent Role="Yorum1">
+              <PropertyRef Name="HaberID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="acarEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Haber" EntityType="Self.Haber" />
+          <EntitySet Name="Users1" EntityType="Self.Users1" />
+          <EntitySet Name="Yorum1" EntityType="Self.Yorum1" />
+          <AssociationSet Name="FK_Yorum1_Haber" Association="Self.FK_Yorum1_Haber">
+            <End Role="Haber" EntitySet="Haber" />
+            <End Role="Yorum1" EntitySet="Yorum1" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="acarModelStoreContainer" CdmEntityContainer="acarEntities">
+          <EntitySetMapping Name="Haber">
+            <EntityTypeMapping TypeName="acarModel.Haber">
+              <MappingFragment StoreEntitySet="Haber">
+                <ScalarProperty Name="HaberID" ColumnName="HaberID" />
+                <ScalarProperty Name="haber_resmi" ColumnName="haber_resmi" />
+                <ScalarProperty Name="haber_yazisi" ColumnName="haber_yazisi" />
+                <ScalarProperty Name="haber_turu" ColumnName="haber_turu" />
+                <ScalarProperty Name="haber_baslik" ColumnName="haber_baslik" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Users1">
+            <EntityTypeMapping TypeName="acarModel.Users1">
+              <MappingFragment StoreEntitySet="Users1">
+                <ScalarProperty Name="userEmail" ColumnName="userEmail" />
+                <ScalarProperty Name="userPassword" ColumnName="userPassword" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Yorum1">
+            <EntityTypeMapping TypeName="acarModel.Yorum1">
+              <MappingFragment StoreEntitySet="Yorum1">
+                <ScalarProperty Name="YorumID" ColumnName="YorumID" />
+                <ScalarProperty Name="Yorum_satiri" ColumnName="Yorum_satiri" />
+                <ScalarProperty Name="HaberID" ColumnName="HaberID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

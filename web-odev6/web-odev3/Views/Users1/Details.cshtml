@@ -1,0 +1,40 @@
+﻿@model web_odev3.Models.Users1
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>Users1</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.userEmail)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.userEmail)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.userPassword)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.userPassword)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { idd = Model.userEmail }) |
+        @Html.ActionLink("Admin Sayfasi", "AdminPage", "Home", null, null)
+    </p>
+</body>
+</html>

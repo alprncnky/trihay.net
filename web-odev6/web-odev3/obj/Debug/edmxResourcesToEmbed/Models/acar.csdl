@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="acarModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Haber">
+    <Key>
+      <PropertyRef Name="HaberID" />
+    </Key>
+    <Property Name="HaberID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="haber_resmi" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="haber_yazisi" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="haber_turu" Type="Int32" />
+    <Property Name="haber_baslik" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Yorum1" Relationship="Self.FK_Yorum1_Haber" FromRole="Haber" ToRole="Yorum1" />
+  </EntityType>
+  <EntityType Name="Users1">
+    <Key>
+      <PropertyRef Name="userEmail" />
+    </Key>
+    <Property Name="userEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="userPassword" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="Yorum1">
+    <Key>
+      <PropertyRef Name="YorumID" />
+    </Key>
+    <Property Name="YorumID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Yorum_satiri" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="HaberID" Type="Int32" />
+    <NavigationProperty Name="Haber" Relationship="Self.FK_Yorum1_Haber" FromRole="Yorum1" ToRole="Haber" />
+  </EntityType>
+  <Association Name="FK_Yorum1_Haber">
+    <End Role="Haber" Type="Self.Haber" Multiplicity="0..1" />
+    <End Role="Yorum1" Type="Self.Yorum1" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Haber">
+        <PropertyRef Name="HaberID" />
+      </Principal>
+      <Dependent Role="Yorum1">
+        <PropertyRef Name="HaberID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="acarEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Haber" EntityType="Self.Haber" />
+    <EntitySet Name="Users1" EntityType="Self.Users1" />
+    <EntitySet Name="Yorum1" EntityType="Self.Yorum1" />
+    <AssociationSet Name="FK_Yorum1_Haber" Association="Self.FK_Yorum1_Haber">
+      <End Role="Haber" EntitySet="Haber" />
+      <End Role="Yorum1" EntitySet="Yorum1" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

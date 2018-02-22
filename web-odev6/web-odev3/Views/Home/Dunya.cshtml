@@ -1,0 +1,32 @@
+﻿@model IEnumerable<web_odev3.Models.Haber>
+@{
+    ViewBag.Title = "Dunya";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+
+<div class="container">
+    <div class="row">
+
+        @foreach (var item in Model.OrderByDescending(item=>item.HaberID).Where(item => item.haber_turu == 4))
+                {
+            <div class="col-sm-6 col-md-4 col-lg-3 mt-4">
+                <a style="color:black;" href="@Url.Action("haber", new { id = item.HaberID })">
+                    <div class="card">
+                        @{
+                            var base64 = Convert.ToBase64String(item.haber_resmi);
+                            var imgsrc = string.Format("data:image/jpg;base64,{0}", base64);
+                        }
+                        <div class="card-img-top"><img style="max-height:210px; height:100%" src='@imgsrc'></div>
+                        <div class="card-block" style="white-space: nowrap; overflow:hidden;">
+                            <h4 class="text-bold">@Html.DisplayFor(modelItem => item.haber_baslik)</h4>
+                            <p>@Html.DisplayFor(modelItem => item.haber_yazisi)</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        }
+
+
+    </div>
+</div>
+

@@ -1,0 +1,42 @@
+﻿@model web_odev3.Models.Yorum1
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>Yorum1</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Yorum_satiri)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Yorum_satiri)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Haber.haber_yazisi)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Haber.haber_yazisi)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.YorumID }) |
+        @Html.ActionLink("Admin Sayfasi", "AdminPage", "Home", null,null)
+    </p>
+</body>
+</html>

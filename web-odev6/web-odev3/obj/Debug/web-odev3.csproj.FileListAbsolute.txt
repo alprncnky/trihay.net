@@ -1,0 +1,345 @@
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\ApplicationInsights.config
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\roslyn\csc.exe
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\roslyn\vbc.exe
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\roslyn\VBCSCompiler.exe
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\web-odev3.dll.config
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\web-odev3.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\web-odev3.pdb
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\Microsoft.AI.Web.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\Microsoft.ApplicationInsights.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\System.Web.Helpers.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\System.Web.Mvc.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\System.Web.Razor.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\System.Web.Webpages.Deployment.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\System.Web.Webpages.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\System.Web.Webpages.Razor.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\Microsoft.AI.Web.xml
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\Microsoft.ApplicationInsights.xml
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\System.Web.Razor.xml
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\System.Web.Webpages.xml
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\System.Web.Webpages.Deployment.xml
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\System.Web.Webpages.Razor.xml
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\System.Web.Helpers.xml
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\bin\System.Web.Mvc.xml
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\obj\Debug\web-odev3.csprojResolveAssemblyReference.cache
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\obj\Debug\web-odev3.dll
+C:\Users\alperen\Documents\Visual Studio 2015\Projects-Summer\web-odev3\web-odev3\obj\Debug\web-odev3.pdb
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\ApplicationInsights.config
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\roslyn\csc.exe
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\roslyn\vbc.exe
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\roslyn\VBCSCompiler.exe
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\web-odev3.dll.config
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\web-odev3.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\web-odev3.pdb
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\Microsoft.AI.Web.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\System.Web.Helpers.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\System.Web.Mvc.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\System.Web.Razor.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\System.Web.Webpages.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\System.Web.Webpages.Razor.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\Microsoft.AI.Web.xml
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\System.Web.Razor.xml
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\System.Web.Webpages.xml
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\System.Web.Webpages.Razor.xml
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\System.Web.Helpers.xml
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\bin\System.Web.Mvc.xml
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\obj\Debug\web-odev3.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\obj\Debug\web-odev3.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\obj\Debug\web-odev3.dll
+C:\Users\Lenovo\Desktop\web-odev3\web-odev3\obj\Debug\web-odev3.pdb
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\ApplicationInsights.config
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\roslyn\csc.exe
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\roslyn\vbc.exe
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\roslyn\VBCSCompiler.exe
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\web-odev3.dll.config
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\web-odev3.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\web-odev3.pdb
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\Microsoft.AI.Web.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\Microsoft.ApplicationInsights.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\System.Web.Helpers.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\System.Web.Mvc.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\System.Web.Razor.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\System.Web.Webpages.Deployment.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\System.Web.Webpages.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\System.Web.Webpages.Razor.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\Microsoft.AI.Web.xml
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\Microsoft.ApplicationInsights.xml
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\System.Web.Razor.xml
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\System.Web.Webpages.xml
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\System.Web.Webpages.Deployment.xml
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\System.Web.Webpages.Razor.xml
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\System.Web.Helpers.xml
+C:\Users\alperen\Desktop\web-odev3\web-odev3\bin\System.Web.Mvc.xml
+C:\Users\alperen\Desktop\web-odev3\web-odev3\obj\Debug\web-odev3.csprojResolveAssemblyReference.cache
+C:\Users\alperen\Desktop\web-odev3\web-odev3\obj\Debug\web-odev3.dll
+C:\Users\alperen\Desktop\web-odev3\web-odev3\obj\Debug\web-odev3.pdb
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\ApplicationInsights.config
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\roslyn\csc.exe
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\roslyn\vbc.exe
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\roslyn\VBCSCompiler.exe
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\web-odev3.dll.config
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\web-odev3.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\web-odev3.pdb
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\Microsoft.AI.Web.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\Microsoft.ApplicationInsights.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\System.Web.Helpers.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\System.Web.Mvc.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\System.Web.Razor.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\System.Web.Webpages.Deployment.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\System.Web.Webpages.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\System.Web.Webpages.Razor.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\Microsoft.AI.Web.xml
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\Microsoft.ApplicationInsights.xml
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\System.Web.Razor.xml
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\System.Web.Webpages.xml
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\System.Web.Webpages.Deployment.xml
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\System.Web.Webpages.Razor.xml
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\System.Web.Helpers.xml
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\bin\System.Web.Mvc.xml
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\obj\Debug\web-odev3.csprojResolveAssemblyReference.cache
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\obj\Debug\web-odev3.dll
+C:\Users\alperen\Desktop\sonnnn2\web-odev3\web-odev3\obj\Debug\web-odev3.pdb
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\ApplicationInsights.config
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\roslyn\csc.exe
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\roslyn\vbc.exe
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\roslyn\VBCSCompiler.exe
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\web-odev3.dll.config
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\web-odev3.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\web-odev3.pdb
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\EntityFramework.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\EntityFramework.SqlServer.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\Microsoft.AI.Web.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\Microsoft.ApplicationInsights.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\System.Web.Helpers.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\System.Web.Mvc.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\System.Web.Razor.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\System.Web.Webpages.Deployment.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\System.Web.Webpages.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\System.Web.Webpages.Razor.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\EntityFramework.xml
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\EntityFramework.SqlServer.xml
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\Microsoft.AI.Web.xml
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\Microsoft.ApplicationInsights.xml
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\System.Web.Razor.xml
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\System.Web.Webpages.xml
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\System.Web.Webpages.Deployment.xml
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\System.Web.Webpages.Razor.xml
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\System.Web.Helpers.xml
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\bin\System.Web.Mvc.xml
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\obj\Debug\web-odev3.csprojResolveAssemblyReference.cache
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\obj\Debug\web-odev3.dll
+C:\Users\alperen\Desktop\sonnnn2 - Copy - Copy\web-odev3\web-odev3\obj\Debug\web-odev3.pdb
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\ApplicationInsights.config
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\roslyn\csc.exe
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\roslyn\vbc.exe
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\roslyn\VBCSCompiler.exe
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\web-odev3.dll.config
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\web-odev3.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\web-odev3.pdb
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\EntityFramework.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\EntityFramework.SqlServer.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\Microsoft.AI.Web.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\Microsoft.ApplicationInsights.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\System.Web.Helpers.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\System.Web.Mvc.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\System.Web.Razor.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\System.Web.Webpages.Deployment.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\System.Web.Webpages.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\System.Web.Webpages.Razor.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\EntityFramework.xml
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\EntityFramework.SqlServer.xml
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\Microsoft.AI.Web.xml
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\Microsoft.ApplicationInsights.xml
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\System.Web.Razor.xml
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\System.Web.Webpages.xml
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\System.Web.Webpages.Deployment.xml
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\System.Web.Webpages.Razor.xml
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\System.Web.Helpers.xml
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\System.Web.Mvc.xml
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\obj\Debug\web-odev3.csprojResolveAssemblyReference.cache
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\obj\Debug\web-odev3.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\obj\Debug\web-odev3.pdb
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\bin\tr\web-odev3.resources.dll
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\obj\Debug\web_odev3.Resources.HomeTexts.resources
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\obj\Debug\web_odev3.Resources.HomeTexts.tr.resources
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\obj\Debug\web-odev3.csproj.GenerateResource.Cache
+C:\Users\alperen\Desktop\web odev5\web-odev3\web-odev3\obj\Debug\tr\web-odev3.resources.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\ApplicationInsights.config
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\roslyn\csc.exe
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\roslyn\vbc.exe
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\roslyn\VBCSCompiler.exe
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\web-odev3.dll.config
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\web-odev3.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\web-odev3.pdb
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\tr\web-odev3.resources.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\EntityFramework.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\EntityFramework.SqlServer.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\Microsoft.AI.Web.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\Microsoft.ApplicationInsights.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\System.Web.Helpers.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\System.Web.Mvc.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\System.Web.Razor.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\System.Web.Webpages.Deployment.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\System.Web.Webpages.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\System.Web.Webpages.Razor.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\EntityFramework.xml
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\EntityFramework.SqlServer.xml
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\Microsoft.AI.Web.xml
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\Microsoft.ApplicationInsights.xml
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\System.Web.Razor.xml
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\System.Web.Webpages.xml
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\System.Web.Webpages.Deployment.xml
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\System.Web.Webpages.Razor.xml
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\System.Web.Helpers.xml
+C:\Users\alperen\Desktop\web-odev6\web-odev3\bin\System.Web.Mvc.xml
+C:\Users\alperen\Desktop\web-odev6\web-odev3\obj\Debug\web-odev3.csprojResolveAssemblyReference.cache
+C:\Users\alperen\Desktop\web-odev6\web-odev3\obj\Debug\web_odev3.Resources.HomeTexts.resources
+C:\Users\alperen\Desktop\web-odev6\web-odev3\obj\Debug\web_odev3.Resources.HomeTexts.tr.resources
+C:\Users\alperen\Desktop\web-odev6\web-odev3\obj\Debug\web-odev3.csproj.GenerateResource.Cache
+C:\Users\alperen\Desktop\web-odev6\web-odev3\obj\Debug\tr\web-odev3.resources.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\obj\Debug\web-odev3.dll
+C:\Users\alperen\Desktop\web-odev6\web-odev3\obj\Debug\web-odev3.pdb
