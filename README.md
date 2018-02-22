@@ -1,5 +1,5 @@
 # trihay.net
-Web project with Asp.Net
+Web project with Asp.Net  ( http://www.trihay.net/ )
 
 This is my first asp.net project. I made a news website.
 
@@ -8,4 +8,4 @@ This is my first asp.net project. I made a news website.
 3-Control before a upload comment to if user is logged in <br />
 4-Support atleast 2 languages <br />
 
-This list was my main goal. 
+This list was my main goal.<br />
